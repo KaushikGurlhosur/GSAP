@@ -5,7 +5,16 @@ const GsapTo = () => {
   // TODO: Implement the gsap.to() method
 
   useGSAP(() => {
-    gsap.to("#blue-box", { x: 250 });
+    gsap.to("#blue-box", {
+      x: 550,
+      duration: 3,
+      ease: "elastic",
+      repeat: -1,
+      yoyo: true,
+      rotate: -360,
+      scale: 1.5,
+      borderRadius: "40%",
+    });
   }, []);
 
   return (

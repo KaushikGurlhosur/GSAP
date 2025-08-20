@@ -23,8 +23,7 @@ const GsapFrom = () => {
         <a
           href="https://greensock.com/docs/v3/GSAP/gsap.from()"
           target="_blank"
-          rel="noreferrer noopener nofollow"
-        >
+          rel="noreferrer noopener nofollow">
           gsap.from()
         </a>{" "}
         method.
